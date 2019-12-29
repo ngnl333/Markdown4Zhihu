@@ -16,3 +16,12 @@
 `python zhihu-publisher.py --input="./Data/一个测试文档.md"`
 
 4. OK，all set. 在`Data`目录下，你可以看到一个`一个测试文档_for_zhihu.md`的文件，将它上传至知乎编辑器即可。
+
+---
+
+踩坑:
+
+1. md文件名里面不能有空格或特殊符号等  浏览器确定地址时会报错
+
+2. remote必须命名为origin   不能使用其他命名 否则会报错
+
